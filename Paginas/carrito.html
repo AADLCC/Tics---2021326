@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu Carrito de Compras - Mi Tienda de E-books</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="../Style/css.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Mi Tienda de E-books</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="catalogo.html">Catálogo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="carrito.html">Carrito (<span id="cart-count">2</span>)</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container my-5">
+        <section id="cart-page" class="mb-5">
+            <h1 class="text-center mb-4">Tu Carrito de Compras</h1>
+            <p class="lead text-center mb-5">Revisa los ítems que has añadido.</p>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="card shadow-sm p-4">
+                        <div class="card-body">
+                            <ul class="list-group mb-3">
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    <div>
+                                        <h5 class="my-0">Cien Años de Soledad</h5>
+                                        <small class="text-muted">Autor: Gabriel García Márquez</small><br>
+                                        <small class="text-muted">Cantidad: 1</small>
+                                    </div>
+                                    <div class="d-flex align-items-center">
+                                        <span class="fs-5 fw-bold me-3">$12.50</span>
+                                        <button class="btn btn-sm btn-outline-secondary me-1" disabled>-</button>
+                                        <button class="btn btn-sm btn-outline-secondary me-1" disabled>+</button>
+                                        <button class="btn btn-sm btn-danger" disabled>Quitar</button>
+                                    </div>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    <div>
+                                        <h5 class="my-0">Sapiens: De animales a dioses</h5>
+                                        <small class="text-muted">Autor: Yuval Noah Harari</small><br>
+                                        <small class="text-muted">Cantidad: 1</small>
+                                    </div>
+                                    <div class="d-flex align-items-center">
+                                        <span class="fs-5 fw-bold me-3">$11.20</span>
+                                        <button class="btn btn-sm btn-outline-secondary me-1" disabled>-</button>
+                                        <button class="btn btn-sm btn-outline-secondary me-1" disabled>+</button>
+                                        <button class="btn btn-sm btn-danger" disabled>Quitar</button>
+                                    </div>
+                                </li>
+                                </ul>
+                            <div class="d-flex justify-content-end fs-3 fw-bold mt-4 border-top pt-3">
+                                Total: $<span id="cart-total">23.70</span>
+                            </div>
+                            <div class="d-grid gap-2 d-md-flex justify-content-md-end mt-4">
+                                <a href="catalogo.html" class="btn btn-secondary btn-lg me-md-2">Seguir Comprando</a>
+                                <button class="btn btn-primary btn-lg" disabled>Finalizar Compra</button> </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-light text-center py-4 mt-5">
+        <p>&copy; 2025 Mi Tienda de E-books. Todos los derechos reservados.</p>
+        <p>Contacto: info@mitiendaebooks.com</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+    </body>
+</html>
