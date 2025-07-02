@@ -14,7 +14,7 @@
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Mi Tienda de E-books</a>
+            <a class="navbar-brand" href="index.html">Mi Tienda de E-books</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -23,7 +23,7 @@
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
                     </li>
-                     <li class="nav-item">
+                    <li class="nav-item">
                         <a class="nav-link" href="Paginas/catalogo.html">Catálogo</a>
                     </li>
                     <li class="nav-item">
@@ -37,13 +37,15 @@
         </div>
     </nav>
 
-    <main class="container my-5">
-        <section id="hero" class="text-center mb-5">
+    <section id="hero" class="text-center mb-5">
+        <div class="container">
             <h1 class="display-4">Descubre tu Próxima Gran Lectura</h1>
             <p class="lead">Explora nuestra colección de e-books de diversos géneros.</p>
             <a href="#catalogo" class="btn btn-primary btn-lg">Explorar Libros</a>
-        </section>
+        </div>
+    </section>
 
+    <main class="container my-5">
         <section id="catalogo" class="mb-5">
             <h2 class="text-center mb-4">Nuestro Catálogo</h2>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4" id="books-container">
@@ -56,7 +58,8 @@
                             <p class="card-text description">Una obra maestra de la literatura latinoamericana que narra la épica saga de la familia Buendía en el mítico pueblo de Macondo.</p>
                             <div class="mt-auto d-flex justify-content-between align-items-center">
                                 <span class="fw-bold fs-5">$12.50</span>
-                                <button class="btn btn-success" disabled>Añadir al Carrito</button> </div>
+                                <a href="Paginas/cien-anios-soledad.html" class="btn btn-primary">Ver Detalles</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -69,7 +72,8 @@
                             <p class="card-text description">Un fascinante recorrido por la historia de la humanidad, explorando cómo la especie Homo Sapiens llegó a dominar el planeta.</p>
                             <div class="mt-auto d-flex justify-content-between align-items-center">
                                 <span class="fw-bold fs-5">$11.20</span>
-                                <button class="btn btn-success" disabled>Añadir al Carrito</button> </div>
+                                <a href="Paginas/sapiens.html" class="btn btn-primary">Ver Detalles</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -82,7 +86,8 @@
                             <p class="card-text description">Una distopía clásica que explora temas de vigilancia masiva, manipulación y control del pensamiento en un futuro sombrío.</p>
                             <div class="mt-auto d-flex justify-content-between align-items-center">
                                 <span class="fw-bold fs-5">$9.50</span>
-                                <button class="btn btn-success" disabled>Añadir al Carrito</button> </div>
+                                <a href="Paginas/1984.html" class="btn btn-primary">Ver Detalles</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -95,7 +100,8 @@
                             <p class="card-text description">Una fábula poética para todas las edades, llena de reflexiones sobre la vida, el amor y la amistad a través de los ojos de un niño.</p>
                             <div class="mt-auto d-flex justify-content-between align-items-center">
                                 <span class="fw-bold fs-5">$7.00</span>
-                                <button class="btn btn-success" disabled>Añadir al Carrito</button> </div>
+                                <a href="Paginas/el-principito.html" class="btn btn-primary">Ver Detalles</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -108,7 +114,8 @@
                             <p class="card-text description">La icónica novela española que sigue las aventuras de un hidalgo que enloquece leyendo libros de caballerías.</p>
                             <div class="mt-auto d-flex justify-content-between align-items-center">
                                 <span class="fw-bold fs-5">$14.99</span>
-                                <button class="btn btn-success" disabled>Añadir al Carrito</button> </div>
+                                <a href="Paginas/don-quijote.html" class="btn btn-primary">Ver Detalles</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -121,7 +128,8 @@
                             <p class="card-text description">Un profundo análisis psicológico y filosófico sobre un estudiante que comete un crimen y la tortura moral que le sigue.</p>
                             <div class="mt-auto d-flex justify-content-between align-items-center">
                                 <span class="fw-bold fs-5">$10.80</span>
-                                <button class="btn btn-success" disabled>Añadir al Carrito</button> </div>
+                                <a href="Paginas/crimen-y-castigo.html" class="btn btn-primary">Ver Detalles</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -180,5 +188,5 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
-    </body>
+</body>
 </html>

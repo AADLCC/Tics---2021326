@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Tienda de E-books</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="../Style/css.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Mi Tienda de E-books</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="catalogo.html">Catálogo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="carrito.html">Carrito (<span id="cart-count">2</span>)</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container my-5">
+        <section id="book-detail" class="mb-5">
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <img id="book-cover" src="https://via.placeholder.com/300x450?text=Cien+Anios" class="img-fluid rounded shadow-sm mb-4" alt="Portada de Cien Años de Soledad" style="max-height: 450px; object-fit: cover;">
+                </div>
+                <div class="col-md-8">
+                    <h1 id="book-title" class="display-4 mb-3">Cien Años de Soledad</h1>
+                    <p id="book-author" class="lead text-muted mb-3">Gabriel García Márquez</p>
+                    <p id="book-price" class="fs-3 fw-bold text-primary mb-4">$12.50</p>
+
+                    <h2 class="h4 mb-3">Reseña del Libro:</h2>
+                    <p id="book-review" class="mb-4">
+                        "Cien Años de Soledad" es la obra maestra del laureado Gabriel García Márquez, considerada una de las cumbres de la literatura universal. Narra la saga de la familia Buendía a lo largo de siete generaciones en el mítico pueblo de Macondo, desde su fundación hasta su eventual desaparición. A través de un realismo mágico inconfundible, la novela explora temas universales como el amor, la soledad, la guerra, la memoria y el destino, entrelazando lo fantástico con lo cotidiano. Una lectura esencial que transporta al lector a un mundo de belleza, tragedia y una rica complejidad humana.
+                        <br><br>
+                        García Márquez teje una intrincada red de personajes memorables, eventos cíclicos y elementos sobrenaturales que dan vida a un universo literario único. Cada página es una invitación a perderse en un relato épico que trasciende el tiempo y el espacio, dejando una huella imborrable en la imaginación.
+                    </p>
+
+                    <h2 class="h4 mb-3">Detalles Adicionales:</h2>
+                    <ul class="list-group list-group-flush mb-4">
+                        <li class="list-group-item"><strong>Género:</strong> Realismo Mágico / Novela</li>
+                        <li class="list-group-item"><strong>Páginas:</strong> 496</li>
+                        <li class="list-group-item"><strong>Publicación:</strong> 1967</li>
+                        <li class="list-group-item"><strong>ISBN:</strong> 978-8437604947</li>
+                    </ul>
+
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                        <button class="btn btn-primary btn-lg" disabled>Añadir al Carrito (Simulación)</button>
+                        <a href="catalogo.html" class="btn btn-secondary btn-lg">Volver al Catálogo</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-light text-center py-4 mt-5">
+        <p>&copy; 2025 Mi Tienda de E-books. Todos los derechos reservados.</p>
+        <p>Contacto: info@mitiendaebooks.com</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Tienda de E-books</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="../Style/css.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Mi Tienda de E-books</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="catalogo.html">Catálogo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="carrito.html">Carrito (<span id="cart-count">2</span>)</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container my-5">
+        <section id="book-detail" class="mb-5">
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <img id="book-cover" src="https://via.placeholder.com/300x450?text=El+Principito" class="img-fluid rounded shadow-sm mb-4" alt="Portada de El Principito" style="max-height: 450px; object-fit: cover;">
+                </div>
+                <div class="col-md-8">
+                    <h1 id="book-title" class="display-4 mb-3">El Principito</h1>
+                    <p id="book-author" class="lead text-muted mb-3">Antoine de Saint-Exupéry</p>
+                    <p id="book-price" class="fs-3 fw-bold text-primary mb-4">$7.00</p>
+
+                    <h2 class="h4 mb-3">Reseña del Libro:</h2>
+                    <p id="book-review" class="mb-4">
+                        "El Principito" de Antoine de Saint-Exupéry es una fábula poética y filosófica que, bajo la aparente sencillez de un cuento infantil, encierra profundas reflexiones sobre la vida, el amor, la amistad y la pérdida. La historia comienza cuando un aviador, varado en el desierto del Sahara, se encuentra con un pequeño príncipe que ha viajado de planeta en planeta, conociendo a excéntricos adultos que representan distintas facetas de la humanidad.
+                        <br><br>
+                        A través de los ojos inocentes y la sabiduría del Principito, el autor critica la falta de imaginación y la superficialidad del mundo adulto, y nos recuerda la importancia de lo esencial, que "es invisible a los ojos". Es una obra que invita a los lectores de todas las edades a redescubrir la capacidad de asombro, a valorar las conexiones significativas y a entender que lo más valioso no se mide con números. Un clásico atemporal que sigue conmoviendo y enseñando a generaciones.
+                    </p>
+
+                    <h2 class="h4 mb-3">Detalles Adicionales:</h2>
+                    <ul class="list-group list-group-flush mb-4">
+                        <li class="list-group-item"><strong>Género:</strong> Fábula / Literatura Infantil / Filosofía</li>
+                        <li class="list-group-item"><strong>Páginas:</strong> 96</li>
+                        <li class="list-group-item"><strong>Publicación:</strong> 1943</li>
+                        <li class="list-group-item"><strong>ISBN:</strong> 978-8420471520</li>
+                    </ul>
+
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                        <button class="btn btn-primary btn-lg" disabled>Añadir al Carrito (Simulación)</button>
+                        <a href="catalogo.html" class="btn btn-secondary btn-lg">Volver al Catálogo</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-light text-center py-4 mt-5">
+        <p>&copy; 2025 Mi Tienda de E-books. Todos los derechos reservados.</p>
+        <p>Contacto: info@mitiendaebooks.com</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+</body>
+</html>

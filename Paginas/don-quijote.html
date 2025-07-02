@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Tienda de E-books</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="../Style/css.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Mi Tienda de E-books</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="catalogo.html">Catálogo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="carrito.html">Carrito (<span id="cart-count">2</span>)</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container my-5">
+        <section id="book-detail" class="mb-5">
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <img id="book-cover" src="https://via.placeholder.com/300x450?text=Don+Quijote" class="img-fluid rounded shadow-sm mb-4" alt="Portada de Don Quijote de la Mancha" style="max-height: 450px; object-fit: cover;">
+                </div>
+                <div class="col-md-8">
+                    <h1 id="book-title" class="display-4 mb-3">Don Quijote de la Mancha</h1>
+                    <p id="book-author" class="lead text-muted mb-3">Miguel de Cervantes Saavedra</p>
+                    <p id="book-price" class="fs-3 fw-bold text-primary mb-4">$14.99</p>
+
+                    <h2 class="h4 mb-3">Reseña del Libro:</h2>
+                    <p id="book-review" class="mb-4">
+                        "El ingenioso hidalgo Don Quijote de la Mancha", de Miguel de Cervantes Saavedra, es una de las obras cumbres de la literatura universal y la novela más importante de la literatura española. Publicada en dos partes (1605 y 1615), narra las andanzas de Alonso Quijano, un hidalgo cincuentón que, enloquecido por la lectura de libros de caballerías, decide convertirse en caballero andante bajo el nombre de Don Quijote para recorrer el mundo deshaciendo entuertos.
+                        <br><br>
+                        Acompañado de su fiel escudero, Sancho Panza, Don Quijote vive una serie de aventuras cómicas y trágicas, a menudo confundiendo la realidad con su fantasía caballeresca. La novela es una parodia de los libros de caballerías, pero también una profunda reflexión sobre la idealismo y el pragmatismo, la locura y la cordura, la justicia y la injusticia. Su influencia en la literatura occidental es incalculable, y sus personajes se han convertido en arquetipos universales.
+                    </p>
+
+                    <h2 class="h4 mb-3">Detalles Adicionales:</h2>
+                    <ul class="list-group list-group-flush mb-4">
+                        <li class="list-group-item"><strong>Género:</strong> Novela / Sátira / Aventura</li>
+                        <li class="list-group-item"><strong>Páginas:</strong> 1056 (aprox., varía por edición)</li>
+                        <li class="list-group-item"><strong>Publicación:</strong> 1605 (Parte I), 1615 (Parte II)</li>
+                        <li class="list-group-item"><strong>ISBN:</strong> 978-8420471506 (ejemplo)</li>
+                    </ul>
+
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                        <button class="btn btn-primary btn-lg" disabled>Añadir al Carrito (Simulación)</button>
+                        <a href="catalogo.html" class="btn btn-secondary btn-lg">Volver al Catálogo</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-light text-center py-4 mt-5">
+        <p>&copy; 2025 Mi Tienda de E-books. Todos los derechos reservados.</p>
+        <p>Contacto: info@mitiendaebooks.com</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+</body>
+</html>
