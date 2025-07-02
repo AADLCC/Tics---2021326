@@ -32,6 +32,9 @@ Este proyecto tiene como objetivo demostrar la creación de un sitio web de come
 ## Cómo Usar
 
 1.  Clona o descarga este repositorio.
+```
+https://github.com/AADLCC/Tics---2021326.git
+```
 2.  Abre el archivo `index.html` en tu navegador web para comenzar.
 3. O abre este link
 
