@@ -35,6 +35,6 @@ Este proyecto tiene como objetivo demostrar la creación de un sitio web de come
 2.  Abre el archivo `index.html` en tu navegador web para comenzar.
 3. O abre este link
 
-´´´
-
-´´´
+```
+https://aadlcc.github.io/Tics---2021326/
+```
