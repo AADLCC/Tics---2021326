@@ -167,3 +167,33 @@ footer {
 footer p {
     margin-bottom: 0.5rem;
 }
+
+.card-img-top {
+    width: 1000px !important;  
+    height: 1000px !important; 
+    object-fit: cover;        
+    display: block;            
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;          
+    border-radius: 8px;       
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+}
+
+
+#book-cover {
+    width: 350px !important;  
+    height: 500px !important; 
+    object-fit: cover;        
+    border-radius: 8px;       
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2); 
+    margin-bottom: 1.5rem;  
+}
+
+
+@media (max-width: 768px) {
+    #book-cover {
+        width: 250px !important; 
+        height: 375px !important;
+    }
+}
